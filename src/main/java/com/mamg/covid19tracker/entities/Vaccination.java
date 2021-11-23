@@ -2,14 +2,12 @@ package com.mamg.covid19tracker.entities;
 
 import com.mamg.covid19tracker.enums.Countries;
 import com.mamg.covid19tracker.enums.Gender;
-import com.mamg.covid19tracker.enums.TestResult;
 import com.mamg.covid19tracker.enums.VaccineType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 

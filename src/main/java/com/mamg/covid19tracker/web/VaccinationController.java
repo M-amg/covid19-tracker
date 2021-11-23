@@ -1,13 +1,9 @@
 package com.mamg.covid19tracker.web;
 
-
-import com.mamg.covid19tracker.entities.CovidCases;
 import com.mamg.covid19tracker.entities.Vaccination;
 import com.mamg.covid19tracker.enums.Countries;
 import com.mamg.covid19tracker.enums.PreDateType;
-import com.mamg.covid19tracker.enums.TestResult;
 import com.mamg.covid19tracker.enums.VaccineType;
-import com.mamg.covid19tracker.repositories.VaccinationRepository;
 import com.mamg.covid19tracker.service.VaccinationService;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
@@ -17,8 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @RestController

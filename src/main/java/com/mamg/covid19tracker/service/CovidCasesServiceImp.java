@@ -6,7 +6,6 @@ import com.mamg.covid19tracker.enums.PreDateType;
 import com.mamg.covid19tracker.enums.TestResult;
 import com.mamg.covid19tracker.repositories.CovidCasesRepository;
 import com.mamg.covid19tracker.utils.PreDateFormatValidator;
-import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,6 @@
 package com.mamg.covid19tracker.web;
 
-import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mamg.covid19tracker.Covid19trackerApplication;
 import com.mamg.covid19tracker.entities.CovidCases;
@@ -17,10 +15,8 @@ import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
@@ -30,11 +26,10 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.context.WebApplicationContext;
 
-import java.io.IOException;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import java.util.Map;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 

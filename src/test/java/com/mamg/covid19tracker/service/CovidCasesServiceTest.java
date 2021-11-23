@@ -9,11 +9,7 @@ import com.mamg.covid19tracker.repositories.CovidCasesRepository;
 import com.mamg.covid19tracker.utils.PreDateFormatValidator;
 import lombok.SneakyThrows;
 import org.assertj.core.api.Assertions;
-import org.assertj.core.api.BDDAssertions;
-import org.assertj.core.api.Java6BDDAssertions;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.function.Executable;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.http.ResponseEntity;
@@ -24,8 +20,6 @@ import java.util.GregorianCalendar;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.BDDMockito.given;
-import static org.mockito.BDDMockito.then;
 
 @DataJpaTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

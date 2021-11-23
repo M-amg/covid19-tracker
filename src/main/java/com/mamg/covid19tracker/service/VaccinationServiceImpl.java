@@ -1,13 +1,11 @@
 package com.mamg.covid19tracker.service;
 
-import com.mamg.covid19tracker.entities.CovidCases;
 import com.mamg.covid19tracker.entities.Vaccination;
 import com.mamg.covid19tracker.enums.Countries;
 import com.mamg.covid19tracker.enums.PreDateType;
 import com.mamg.covid19tracker.enums.VaccineType;
 import com.mamg.covid19tracker.repositories.VaccinationRepository;
 import com.mamg.covid19tracker.utils.PreDateFormatValidator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -17,7 +15,6 @@ import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 import java.util.HashMap;
 import java.util.List;

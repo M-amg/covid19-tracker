@@ -1,9 +1,7 @@
 package com.mamg.covid19tracker.repositories;
 
 import com.mamg.covid19tracker.entities.Vaccination;
-import com.mamg.covid19tracker.entities.Vaccination;
 import com.mamg.covid19tracker.enums.Countries;
-import com.mamg.covid19tracker.enums.TestResult;
 import com.mamg.covid19tracker.enums.VaccineType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

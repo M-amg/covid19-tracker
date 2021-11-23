@@ -6,7 +6,6 @@ import com.mamg.covid19tracker.enums.PreDateType;
 import com.mamg.covid19tracker.enums.TestResult;
 import org.springframework.http.ResponseEntity;
 
-import java.util.Date;
 import java.util.Map;
 
 public interface CovidCasesService {

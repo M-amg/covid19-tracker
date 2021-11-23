@@ -5,8 +5,6 @@ import com.mamg.covid19tracker.enums.Countries;
 import com.mamg.covid19tracker.enums.PreDateType;
 import com.mamg.covid19tracker.enums.TestResult;
 import com.mamg.covid19tracker.service.CovidCasesService;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +16,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.*;
 import java.util.stream.Collectors;
